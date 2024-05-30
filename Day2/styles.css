@@ -1,0 +1,28 @@
+.parent {
+    height: 400px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 20px; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.box1{
+    background-color: black;
+    height: 250px;
+}
+
+.box2{
+    background-color: yellow;
+    height: 200px;
+}
+
+

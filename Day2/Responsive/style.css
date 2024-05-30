@@ -1,0 +1,16 @@
+div {
+    height: 500px;
+    background-color: yellow;
+}
+
+@media (min-width:1000px){
+    div{
+        background-color: blue;
+    }
+}
+
+@media (max-width: 600px) {
+    div{
+        background-color: white;
+    }
+}

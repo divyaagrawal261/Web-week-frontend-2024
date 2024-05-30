@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!----------------------Header------------------------->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <ul id="side-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hello, I am Aditya</h1>
+            </div>
+        </div>
+    </header>
+
+    <!--------------------- About -------------------------->
+    <div id="about">
+
+
+        <div class="about-col-1">
+            <img src="https://t4.ftcdn.net/jpg/06/31/90/83/360_F_631908326_PHaCKTVF6dlBqwW0EEyodnNT9j7ZHtRr.jpg"
+                alt="user image">
+        </div>
+        <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p>Junior Software Developer with background in warehousing and management for 8 years. Recently
+                graduated from Le Wagon intensive Web Development Bootcamp and completed a group project using
+                HTML, CSS, JS AND RUBY ON RAILS. I am looking for opportunities in Backend Development as i
+                really enjoy writing scripts to make my life easy using code and automating tasks.
+                <br>
+                I always had a passion for technology and how it can improve people's lives. I started to learn
+                more about it on my own and quickly realised that I wanted to make a career change and thats
+                when i found Le Wagon and it changed my life by giving me the skills that i needed
+                <br>
+                Few things that i am really interested in: • Scripting in shortcuts ios app • Raspberry Pi •
+                Internet ofthings
+            </p>
+        </div>
+
+    </div>
+
+    <!-----------------------Work & Services------------------------>
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Work & Services</h2>
+            <div class="services-list">
+                <div>
+                    <h3>Anonymous Feedback</h3>
+                    <p>Designed for small companies, my anonymous feedback service enables you to receive honest
+                        feedback from
+                        your customers, employees, or website visitors without revealing their identities.</p>
+                </div>
+
+                <div>
+                    <h3>Web Scraping</h3>
+                    <p>Need website data scraped on a daily basis? I've got you covered. My web scraping service
+                        provides reliable
+                        and efficient data extraction from various websites, every day. With my automated tools and
+                        experience.</p>
+                </div>
+
+                <div>
+                    <h3>Suburb Finder</h3>
+                    <p>Looking for an efficient way to streamline your warehouse operations? My suburb finder service
+                        helps small
+                        businesses identify the location of their incoming stock, so forklift drivers can efficiently
+                        put it away in
+                        the warehouse.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------Contact------------------------>
+    <div id="contact">
+        <div class="contact-right">
+            <h2 class="sub-title">Contact Me</h2>
+
+            <form name="submit-to-google-sheet">
+                <input id="name" type="text" name="Name" placeholder="Your Name" required>
+                <input id="email" type="email" name="Email" placeholder="Your email(optional)">
+                <textarea id="message" name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button id="submit-btn" type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
